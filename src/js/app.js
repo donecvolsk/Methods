@@ -6,9 +6,12 @@ import { Daemon } from "./Daemon";
 import { Undead } from "./Undead";
 import { Zombie } from "./Zombie";
 
-const a = new Character('Bobik', 'Bowman');
-console.log(a);
+const user1 = new Bowerman('Bobik', 'Bowman');
+user1.levelUp();
+user1.damage(20);
+console.log(user1);
 
-const b = new Zombie ('Pushok', 'Swordsman');
-console.log(b);
-
+const user2 = new Zombie ('Pushok', 'Zombie');
+user2.levelUp();
+user2.damage(50);
+console.log(user2);
