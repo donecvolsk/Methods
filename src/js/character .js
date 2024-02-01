@@ -11,7 +11,10 @@ export class Character {
             this.type = type;  
         } else {
             throw new Error('Тип не сответствует условию')
-        }       
+        }
+        
+        this.health = 100;
+        this.level = 1;
     }
 
     levelUp() {

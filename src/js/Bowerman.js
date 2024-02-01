@@ -1,8 +1,10 @@
 import { Character } from "./character ";
 
 export class Bowerman extends Character {
-    health = 100;
-    level = 1;
-    attack = 25;
-    defence = 25;
+    constructor(name, type) {
+        super(name, type);
+        this.attack = 25;
+        this.defence = 25;
+    }
+    
 }

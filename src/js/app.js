@@ -11,7 +11,7 @@ user1.levelUp();
 user1.damage(20);
 console.log(user1);
 
-const user2 = new Zombie ('Pushok', 'Zombie');
+const user2 = new Magician ('Pushok', 'Magician');
 user2.levelUp();
 user2.damage(50);
 console.log(user2);

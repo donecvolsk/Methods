@@ -3,8 +3,10 @@ import { Character } from "../character ";
 
 test('testing  class Character features', () => {
     const resultingObject = {
-        name: 'Bobik',
-        type: 'Bowman',
+      health: 100,
+      level: 1,
+      name: 'Bobik',
+      type: 'Bowman',
     }
     
     const result = new Character('Bobik', 'Bowman');
